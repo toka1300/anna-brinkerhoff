@@ -1,20 +1,21 @@
 module.exports = {
-    "name": "New Growth Web Services",
-    "email": "newgrowthweb@gmail.com",
-    "phoneForTel": "613-857-9828",
-    "phoneFormatted": "(613) 857-9828",
+    "name": "Anna Brinkerhoff",
+    "email": "annakbrinkerhoff@gmail.com",
+    "phoneForTel": "NA - REPLACE",
+    "phoneFormatted": "NA - REPLACE",
     "address": {
-        "lineOne": "123 Fake Street",
-        "city": "Ottawa",
-        "province": "ON",
-        "postalCode": "K0A1X0",
+        "lineOne": "S-GN MR-08 - Concordia University",
+        "city": "Montreal",
+        "province": "QC",
+        "postalCode": "H3G 1M8",
         "country": "Canada",
-        "mapLink": "https://maps.app.goo.gl/5y6iGEJqFwFWFt9i9"
+        "mapLink": "https://maps.app.goo.gl/ETVXQfT7iYFgPbtY6"
     },
     "socials": {
-        "facebook": "https://www.facebook.com/",
-        "instagram": "https://www.instagram.com/",
+        "concordia": "https://www.concordia.ca/faculty/anna-brinkerhoff.html",
+        "philPeople": "https://philpeople.org/profiles/anna-brinkerhoff",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    "domain": "https://www.example.com"
+    // TODO: Add HTTPS
+    "domain": "http://www.annabrinkerhoff.com"
 };
