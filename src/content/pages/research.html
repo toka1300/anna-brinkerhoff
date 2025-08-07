@@ -1,0 +1,254 @@
+---
+title: 'Research | Anna Brinkerhoff'
+description: 'TODO'
+permalink: 'research/'
+eleventyNavigation:
+    key: Research
+    order: 200
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/research.css">
+    <script defer src="/assets/js/nav.js"></script>
+    <script defer src="/assets/js/faq.js"></script>
+    {# <link rel="preload" as="image" href="{% getUrl '/assets/images/cabinets2.jpg' | resize({ width: 720, height: 774 }) | avif %}"/> #}
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+<div id="banner-712">
+    <div class="cs-container">
+        <span class="cs-int-title">Research</span>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/books.png" | resize({ width: 2000, height: 700 }) | avif %}" type="image/avif">
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/books.png" | resize({ width: 2000, height: 700 }) | webp %}" type="image/webp">
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/books.png" | resize({ width: 2000, height: 700 }) | jpeg %}" type="image/jpeg">
+        <!--Desktop Image-->
+        <source media="(min-width: 601px)" srcset="{% getUrl "/assets/images/books.png" | resize({ width: 1200, height: 700 }) | avif %}" type="image/avif">
+        <source media="(min-width: 601px)" srcset="{% getUrl "/assets/images/books.png" | resize({ width: 1200, height: 700 }) | webp %}" type="image/webp">
+        <source media="(min-width: 601px)" srcset="{% getUrl "/assets/images/books.png" | resize({ width: 1200, height: 700 }) | jpeg %}" type="image/jpeg">
+        <img src="{% getUrl "/assets/images/books.png" | resize({ width: 1200, height: 700 }) | jpeg %}" alt="Books on a shelf" width="1200" height="700" loading="eager" decoding="async" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-326">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Research</span>
+            <h2 class="cs-title">Published Work</h2>
+        </div>
+        <div class="cs-flex-group">
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Patriotic Doxastic Partiality: Canada and the Cognitive Norms of Patriotism
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Forthcoming - in a special issue of Dialogue on Canadian philosophy (eds. Elizabeth Trott and Eric Wilkinson)
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Sexist Beliefs in a Sexist World
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Forthcoming - <em>Episteme</em><br>
+                        <a href="https://www.cambridge.org/core/journals/episteme/article/sexist-beliefs-in-a-sexist-world-exploring-the-causal-role-of-sexism-in-sexist-beliefs/EAE147B460E8935FED3CC5F606EC3C78" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/link.svg" alt="External link" width="16" height="16">
+                            <span>Published Version - Open Access</span>
+                        </a>
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Epistemic Partiality in Friendship
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        2025 - in The Oxford Handbook of Social Epistemology (eds. Jennifer Lackey & Aidan McGlynn), co-authored with Nomy Arpaly<br>
+                        <a href="https://academic.oup.com/edited-volume/59903/chapter-abstract/512424545?redirectedFrom=fulltext" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/link.svg" alt="External link" width="16" height="16">
+                            <span>Published Version</span>
+                        </a>
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Not So Irrelevant: The Epistemic Significance of Social Identity
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        2024 - <em>Dialogue</em><br>
+                        <a href="https://www.cambridge.org/core/journals/dialogue-canadian-philosophical-review-revue-canadienne-de-philosophie/article/not-so-irrelevant-the-epistemic-significance-of-social-identity/5EA6B33D3845317FA2EAD24F9A3BDC96" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/link.svg" alt="External link" width="16" height="16">
+                            <span>Published Version</span> - Open Access
+                        </a>
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            The Moral Value of Social Consciousness
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        2024 - <em>Journal of Ethics and Social Philosophy</em><br>
+                        <a href="http://jesp.org/index.php/jesp/article/view/3805" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/link.svg" alt="External link" width="16" height="16">
+                            <span>Published Version</span> - Open Access
+                        </a>
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            The Cognitive Demands of Friendship
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        2023 - <em>Pacific Philosophical Quarterly</em><br>
+                        <a href="/uploads/4/5/3/7/45377961/the_cognitive_demands_of_friendship_preprint.pdf" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/pdf.svg" alt="PDF" width="16" height="16">
+                            <span>PDF Preprint</span>
+                        </a>
+                        <a href="https://onlinelibrary.wiley.com/doi/10.1111/papq.12423" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/link.svg" alt="External link" width="16" height="16">
+                            <span>Published Version</span>
+                        </a>
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Not Excusing Rape: Silencing, Blame, and Rationality
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        2023 - <em>Australasian Journal of Philosophy</em><br>
+                        <a href="/uploads/4/5/3/7/45377961/not_excusing_rape.pdf" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/pdf.svg" alt="PDF" width="16" height="16">
+                            <span>PDF Preprint</span>
+                        </a>
+                        <a href="https://doi.org/10.1080/00048402.2021.2005645" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/link.svg" alt="External link" width="16" height="16">
+                            <span>Published Version</span>
+                        </a>
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Death, Deprivation, and The Afterlife
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        2022 - <em>Philosophia</em><br>
+                        <a href="/uploads/4/5/3/7/45377961/death_deprivation_and_the_afterlife.pdf" target="_blank" class="cs-link">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.66667 2.66667C2.29848 2.66667 2 2.96515 2 3.33333V12.6667C2 13.0349 2.29848 13.3333 2.66667 13.3333H13.3333C13.7015 13.3333 14 13.0349 14 12.6667V6L10 2H2.66667Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 2V6H14" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M4.66667 8.66667H7.33333" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M4.66667 10.6667H11.3333" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>PDF Preprint</span>
+                        </a>
+                        <a href="http://link.springer.com/article/10.1007/s11406-021-00369-9" target="_blank" class="cs-link">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.99984 2.99984C6.63165 2.99984 6.33317 3.29832 6.33317 3.6665C6.33317 4.03469 6.63165 4.33317 6.99984 4.33317H10.862L3.52884 11.6663C3.26849 11.9267 3.26849 12.3489 3.52884 12.6092C3.78919 12.8696 4.21136 12.8696 4.47171 12.6092L11.8048 5.27608V9.13817C11.8048 9.50636 12.1033 9.80484 12.4715 9.80484C12.8397 9.80484 13.1382 9.50636 13.1382 9.13817V3.6665C13.1382 3.29832 12.8397 2.99984 12.4715 2.99984H6.99984Z" fill="currentColor"/>
+                                <path d="M1.6665 4.33317C1.6665 3.59679 2.26345 2.99984 2.99984 2.99984H5.33317C5.70136 2.99984 5.99984 3.29832 5.99984 3.6665C5.99984 4.03469 5.70136 4.33317 5.33317 4.33317H2.99984C2.99317 4.33317 2.99984 3.96679 2.99984 4.33317V12.9998C2.99984 13.3662 3.36622 13.3329 2.99984 13.3329H11.6665C12.0329 13.3329 12.3662 12.9665 12.3662 12.5998V10.2665C12.3662 9.89832 12.6647 9.59984 13.0329 9.59984C13.4011 9.59984 13.6996 9.89832 13.6996 10.2665V12.5998C13.6996 13.7044 12.7711 14.6329 11.6665 14.6329H2.99984C1.89527 14.6329 0.966504 13.7041 0.966504 12.5995V4.33317C0.966504 3.59679 1.56345 2.99984 2.30984 2.99984H2.99984Z" fill="currentColor"/>
+                            </svg>
+                            <span>Published Version</span>
+                        </a>
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Prejudiced Beliefs Based on the Evidence
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        2021 - <em>Synthese</em><br>
+                        <a href="/uploads/4/5/3/7/45377961/prejudiced_beliefs_based_on_the_evidence.pdf" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/pdf.svg" alt="PDF" width="16" height="16">
+                            <span>PDF Preprint</span>
+                        </a>
+                        <a href="http://link.springer.com/article/10.1007/s11229-021-03422-y" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/link.svg" alt="External link" width="16" height="16">
+                            <span>Published Version</span>
+                        </a>
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            The Promising Puzzle
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        2021 - <em>Philosophers' Imprint</em><br>
+                        <a href="/uploads/4/5/3/7/45377961/promising_preprint.pdf" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/pdf.svg" alt="PDF" width="16" height="16">
+                            <span>PDF Preprint</span>
+                        </a>
+                        <a href="https://quod.lib.umich.edu/p/phimp/3521354.0021.022/1" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/link.svg" alt="External link" width="16" height="16">
+                            <span>Published Version</span>
+                        </a>
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Why Epistemic Partiality Is Overrated
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        2018 - in a special issue of <em>Philosophical Topics</em> (eds. Rima Basu and Mark Schroeder), co-authored with Nomy Arpaly<br>
+                        <a href="https://www.pdcnet.org/philtopics/content/philtopics_2018_0046_0001_0037_0051" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/link.svg" alt="External link" width="16" height="16">
+                            <span>Published Version</span>
+                        </a>
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Review of Christensen and Lackey (eds.), The Epistemology of Disagreement: New Essays
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        2015 - <em>Analysis</em>, co-authored with Tomás Bogardus<br>
+                        <a href="https://philpapers.org/archive/BOGTEO-6.pdf" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/link.svg" alt="External link" width="16" height="16">
+                            <span>Published Version</span>
+                        </a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+                                
+    {# {% include 'components/cta.html' %} #}
+
+{% endblock %}
