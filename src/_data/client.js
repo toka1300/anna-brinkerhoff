@@ -5,6 +5,7 @@ module.exports = {
     "phoneFormatted": "NA - REPLACE",
     "address": {
         "lineOne": "S-GN MR-08 - Concordia University",
+        "lineTwo": "1450 Boulevard de Maisonneuve West",
         "city": "Montreal",
         "province": "QC",
         "postalCode": "H3G 1M8",

@@ -27,21 +27,23 @@ eleventyNavigation:
     <!--Background Image-->
     <picture class="cs-background">
         <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/books.png" | resize({ width: 2000, height: 700 }) | avif %}" type="image/avif">
-        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/books.png" | resize({ width: 2000, height: 700 }) | webp %}" type="image/webp">
-        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/books.png" | resize({ width: 2000, height: 700 }) | jpeg %}" type="image/jpeg">
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/books.jpg" | resize({ width: 1200, height: 700 }) | avif %}" type="image/avif">
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/books.jpg" | resize({ width: 1200, height: 700 }) | webp %}" type="image/webp">
+        <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/books.jpg" | resize({ width: 1200, height: 700 }) | jpeg %}" type="image/jpeg">
         <!--Desktop Image-->
-        <source media="(min-width: 601px)" srcset="{% getUrl "/assets/images/books.png" | resize({ width: 1200, height: 700 }) | avif %}" type="image/avif">
-        <source media="(min-width: 601px)" srcset="{% getUrl "/assets/images/books.png" | resize({ width: 1200, height: 700 }) | webp %}" type="image/webp">
-        <source media="(min-width: 601px)" srcset="{% getUrl "/assets/images/books.png" | resize({ width: 1200, height: 700 }) | jpeg %}" type="image/jpeg">
-        <img src="{% getUrl "/assets/images/books.png" | resize({ width: 1200, height: 700 }) | jpeg %}" alt="Books on a shelf" width="1200" height="700" loading="eager" decoding="async" aria-hidden="true">
+        <source media="(min-width: 601px)" srcset="{% getUrl "/assets/images/books.jpg" | resize({ width: 2000, height: 722 }) | avif %}" type="image/avif">
+        <source media="(min-width: 601px)" srcset="{% getUrl "/assets/images/books.jpg" | resize({ width: 2000, height: 722, position: "top" }) | webp %}" type="image/webp">
+        <source media="(min-width: 601px)" srcset="{% getUrl "/assets/images/books.jpg" | resize({ width: 2000, height: 722, position: "top" }) | jpeg %}" type="image/jpeg">
+        <img src="{% getUrl "/assets/images/books.jpg" | resize({ width: 2000, height: 722, position: "top" }) | jpeg %}" alt="Books on a shelf" width="1200" height="700" loading="eager" decoding="async" aria-hidden="true">
     </picture>
 </div>
+
 
 <!-- ============================================ -->
 <!--                    FAQ                       -->
 <!-- ============================================ -->
 
+{# TODO: Which sections should be open by default? #}
 <section id="faq-326">
     <div class="cs-container">
         <div class="cs-content">
@@ -66,7 +68,7 @@ eleventyNavigation:
                         </div>
                     </div>
                 </li>
-                <li class="cs-faq-item">
+                <li class="cs-faq-item active">
                     <button class="cs-button">
                         <span class="cs-button-text">
                             Areas of Specialization and Competence
@@ -77,7 +79,7 @@ eleventyNavigation:
                         <span><strong>AOC</strong> Feminist Philosophy; Philosophy of Religion; Environmental Ethics</span>
                     </p>
                 </li>
-                <li class="cs-faq-item">
+                <li class="cs-faq-item active">
                     <button class="cs-button">
                         <span class="cs-button-text">
                             Biographical Information
@@ -160,11 +162,11 @@ eleventyNavigation:
                                 <div class="cv-row"><div class="cv-date">Forthcoming</div><div class="cv-details">“The Moral Virtue of Social Consciousness,” in The Journal of Ethics and Social Philosophy</div></div>
                                 <div class="cv-row"><div class="cv-date">Forthcoming</div><div class="cv-details">“The Epistemic Significance of Social Identity” in Dialogue</div></div>
                                 <div class="cv-row"><div class="cv-date">Forthcoming</div><div class="cv-details">“Patriotic Doxastic Partiality: Canada and the Cognitive Norms of Patriotism” in a special issue of Dialogue on Canadian philosophy<div class="cv-meta">(eds. Elizabeth Trott and Eric Wilkinson)</div></div></div>
-                                <div class="cv-row"><div class="cv-date">2023</div><div class="cv-details">“The Cognitive Demands of Friendship” in Pacific Philosophical Quarterly 104(1): 101 – 123</div></div>
-                                <div class="cv-row"><div class="cv-date">2023</div><div class="cv-details">“Not Excusing Rape: Silencing, Rationality, and Blame” in Australasian Journal of Philosophy 101(2): 390 – 404</div></div>
-                                <div class="cv-row"><div class="cv-date">2022</div><div class="cv-details">“Death, Deprivation, and The Afterlife” in Philosophia 50(1): 19 – 34</div></div>
+                                <div class="cv-row"><div class="cv-date">2023</div><div class="cv-details">“The Cognitive Demands of Friendship” in Pacific Philosophical Quarterly 104(1): 101 - 123</div></div>
+                                <div class="cv-row"><div class="cv-date">2023</div><div class="cv-details">“Not Excusing Rape: Silencing, Rationality, and Blame” in Australasian Journal of Philosophy 101(2): 390 - 404</div></div>
+                                <div class="cv-row"><div class="cv-date">2022</div><div class="cv-details">“Death, Deprivation, and The Afterlife” in Philosophia 50(1): 19 - 34</div></div>
                                 <div class="cv-row"><div class="cv-date">2021</div><div class="cv-details">“Prejudiced Beliefs Based on the Evidence” in Synthese 199(1): 14317 - 14331</div></div>
-                                <div class="cv-row"><div class="cv-date">2021</div><div class="cv-details">“The Promising Puzzle” in Philosophers’ Imprint 21(22): 1 – 17</div></div>
+                                <div class="cv-row"><div class="cv-date">2021</div><div class="cv-details">“The Promising Puzzle” in Philosophers' Imprint 21(22): 1 - 17</div></div>
                                 <div class="cv-row"><div class="cv-date">2018</div><div class="cv-details">“Why Epistemic Partiality is Overrated” in a special issue of Philosophical Topics (eds. Rima Basu and Mark Schroeder), coauthored with Nomy Arpaly*</div></div>
                             </div>
                         </section>
@@ -189,28 +191,28 @@ eleventyNavigation:
                             <h3 class="cv-section-title">Presentations <span class="cv-meta">(*invited; refereed if not otherwise noted)</span></h3>
                             <div class="cv-rows">
                                 <div class="cv-row"><div class="cv-date">June 2024</div><div class="cv-details">“The Epistemic Significance of Social Identity” — Montreal, QC - congress of the Canadian Philosophical Association</div></div>
-                                <div class="cv-row"><div class="cv-date"></div><div class="cv-details cv-meta">Winner of CPA’s 2024 Non-Tenured Faculty Essay Prize</div></div>
-                                <div class="cv-row"><div class="cv-date">March 2024</div><div class="cv-details">“The Moral Virtue of Social Consciousness” — Birmingham, AL – eastern divisional meeting of the Society of Christian Philosophers</div></div>
-                                <div class="cv-row"><div class="cv-date">May 2023</div><div class="cv-details">“The Moral Virtue of Social Consciousness” — Toronto, ON – congress of the Canadian Philosophical Association</div></div>
-                                <div class="cv-row"><div class="cv-date">Feb 2023</div><div class="cv-details">“The Moral Virtue of Social Consciousness” — Denver, CO – central divisional meeting of the American Philosophical Association</div></div>
-                                <div class="cv-row"><div class="cv-date">Feb 2023</div><div class="cv-details">“The Moral Virtue of Social Consciousness” — Montreal, QC – philosophy department colloquium at McGill University*</div></div>
-                                <div class="cv-row"><div class="cv-date">Feb 2023</div><div class="cv-details">“The Moral Virtue of Social Consciousness” — Montreal, QC – Concordia Research Symposium in Philosophy*</div></div>
-                                <div class="cv-row"><div class="cv-date">Oct 2022</div><div class="cv-details">“The Cognitive Demands of Friendship” — Montreal, QC – guest seminar lecture at McGill University*</div></div>
-                                <div class="cv-row"><div class="cv-date">May 2022</div><div class="cv-details">“The Cognitive Demands of Friendship” — Virtual (hosted by University of Cologne) – CONCEPT seminar series*</div></div>
-                                <div class="cv-row"><div class="cv-date">Jan 2022</div><div class="cv-details">“Prejudiced Beliefs Based on the Evidence” — Baltimore, MD – eastern divisional meeting of the American Philosophical Association</div></div>
-                                <div class="cv-row"><div class="cv-date">April 2018</div><div class="cv-details">“Good Friend: Bad Believer?” — Boston, MA – Massachusetts-Rhode Island Philosophy Conference</div></div>
-                                <div class="cv-row"><div class="cv-date">Feb 2018</div><div class="cv-details">“Good Friend: Bad Believer?” — Chicago, IL – central divisional meeting of the American Philosophical Association</div></div>
-                                <div class="cv-row"><div class="cv-date">April 2017</div><div class="cv-details">“Problematic Irrelevance Influences” — Malibu, CA – philosophy department speaker series at Pepperdine University*</div></div>
+                                <div class="cv-row"><div class="cv-date"></div><div class="cv-details cv-meta">Winner of CPA's 2024 Non-Tenured Faculty Essay Prize</div></div>
+                                <div class="cv-row"><div class="cv-date">March 2024</div><div class="cv-details">“The Moral Virtue of Social Consciousness” — Birmingham, AL - eastern divisional meeting of the Society of Christian Philosophers</div></div>
+                                <div class="cv-row"><div class="cv-date">May 2023</div><div class="cv-details">“The Moral Virtue of Social Consciousness” — Toronto, ON - congress of the Canadian Philosophical Association</div></div>
+                                <div class="cv-row"><div class="cv-date">Feb 2023</div><div class="cv-details">“The Moral Virtue of Social Consciousness” — Denver, CO - central divisional meeting of the American Philosophical Association</div></div>
+                                <div class="cv-row"><div class="cv-date">Feb 2023</div><div class="cv-details">“The Moral Virtue of Social Consciousness” — Montreal, QC - philosophy department colloquium at McGill University*</div></div>
+                                <div class="cv-row"><div class="cv-date">Feb 2023</div><div class="cv-details">“The Moral Virtue of Social Consciousness” — Montreal, QC - Concordia Research Symposium in Philosophy*</div></div>
+                                <div class="cv-row"><div class="cv-date">Oct 2022</div><div class="cv-details">“The Cognitive Demands of Friendship” — Montreal, QC - guest seminar lecture at McGill University*</div></div>
+                                <div class="cv-row"><div class="cv-date">May 2022</div><div class="cv-details">“The Cognitive Demands of Friendship” — Virtual (hosted by University of Cologne) - CONCEPT seminar series*</div></div>
+                                <div class="cv-row"><div class="cv-date">Jan 2022</div><div class="cv-details">“Prejudiced Beliefs Based on the Evidence” — Baltimore, MD - eastern divisional meeting of the American Philosophical Association</div></div>
+                                <div class="cv-row"><div class="cv-date">April 2018</div><div class="cv-details">“Good Friend: Bad Believer?” — Boston, MA - Massachusetts-Rhode Island Philosophy Conference</div></div>
+                                <div class="cv-row"><div class="cv-date">Feb 2018</div><div class="cv-details">“Good Friend: Bad Believer?” — Chicago, IL - central divisional meeting of the American Philosophical Association</div></div>
+                                <div class="cv-row"><div class="cv-date">April 2017</div><div class="cv-details">“Problematic Irrelevance Influences” — Malibu, CA - philosophy department speaker series at Pepperdine University*</div></div>
                             </div>
                         </section>
 
                         <section class="cv-section">
                             <h3 class="cv-section-title">Invited Comments</h3>
                             <div class="cv-rows">
-                                <div class="cv-row"><div class="cv-date">Jan 2023</div><div class="cv-details">Comments on Catherine Rioux’s “Investing Hope, Instilling Hope” — Montreal, QC – eastern divisional meeting of the American Philosophical Association</div></div>
-                                <div class="cv-row"><div class="cv-date">April 2019</div><div class="cv-details">Comments on Lara Roth’s “Epistemic Processes and Socially Problematic Beliefs” — Providence, RI – Minorities and Philosophy Conference</div></div>
-                                <div class="cv-row"><div class="cv-date">July 2018</div><div class="cv-details">Comments on Adam Omar Hosein’s “Individualist and Structural Approaches to Discrimination” — Providence, RI – SIPP@Brown Philosophy Conference</div></div>
-                                <div class="cv-row"><div class="cv-date">April 2016</div><div class="cv-details">Comments on Martha Gibson’s “Physicalism, Conceivability, and Semantic Necessity” — San Francisco, CA – pacific divisional meeting of the American Philosophical Association</div></div>
+                                <div class="cv-row"><div class="cv-date">Jan 2023</div><div class="cv-details">Comments on Catherine Rioux's “Investing Hope, Instilling Hope” — Montreal, QC - eastern divisional meeting of the American Philosophical Association</div></div>
+                                <div class="cv-row"><div class="cv-date">April 2019</div><div class="cv-details">Comments on Lara Roth's “Epistemic Processes and Socially Problematic Beliefs” — Providence, RI - Minorities and Philosophy Conference</div></div>
+                                <div class="cv-row"><div class="cv-date">July 2018</div><div class="cv-details">Comments on Adam Omar Hosein's “Individualist and Structural Approaches to Discrimination” — Providence, RI - SIPP@Brown Philosophy Conference</div></div>
+                                <div class="cv-row"><div class="cv-date">April 2016</div><div class="cv-details">Comments on Martha Gibson's “Physicalism, Conceivability, and Semantic Necessity” — San Francisco, CA - pacific divisional meeting of the American Philosophical Association</div></div>
                             </div>
                         </section>
 
@@ -259,9 +261,9 @@ eleventyNavigation:
                         <section class="cv-section">
                             <h3 class="cv-section-title">Student Supervision</h3>
                             <div class="cv-rows">
-                                <div class="cv-row"><div class="cv-date">2024 – Present</div><div class="cv-details">MA Project Supervisor — Jiarui Ma, “Believing Negatively of our Friends”</div></div>
+                                <div class="cv-row"><div class="cv-date">2024 - Present</div><div class="cv-details">MA Project Supervisor — Jiarui Ma, “Believing Negatively of our Friends”</div></div>
                                 <div class="cv-row"><div class="cv-date">Summer 2024</div><div class="cv-details">CUSRA Project Supervisor — Mathieu Charbonneau, “Kindred Enchantment: Explaining Partiality Among Friends”</div></div>
-                                <div class="cv-row"><div class="cv-date">Winter 2024</div><div class="cv-details">Examiner of Major Research Paper (MA Thesis) — Mya Walmsley, “The ‘Science’ of Sexism: Athletic Sex Classification and Fairness in Competitive Sport”</div></div>
+                                <div class="cv-row"><div class="cv-date">Winter 2024</div><div class="cv-details">Examiner of Major Research Paper (MA Thesis) — Mya Walmsley, “The ‘Science' of Sexism: Athletic Sex Classification and Fairness in Competitive Sport”</div></div>
                             </div>
                         </section>
                     </div>
@@ -276,8 +278,8 @@ eleventyNavigation:
                         <section class="cv-section">
                             <h3 class="cv-section-title">Departmental Service at Concordia</h3>
                             <div class="cv-rows">
-                                <div class="cv-row"><div class="cv-date">2024 – Present</div><div class="cv-details">Director, Ethics Lecture Series</div></div>
-                                <div class="cv-row"><div class="cv-date">2024 – Present</div><div class="cv-details">Graduate Studies Committee</div></div>
+                                <div class="cv-row"><div class="cv-date">2024 - Present</div><div class="cv-details">Director, Ethics Lecture Series</div></div>
+                                <div class="cv-row"><div class="cv-date">2024 - Present</div><div class="cv-details">Graduate Studies Committee</div></div>
                                 <div class="cv-row"><div class="cv-date">Summer 2024</div><div class="cv-details">Affiliate Faculty Hiring Committee</div></div>
                                 <div class="cv-row"><div class="cv-date">Winter 2024</div><div class="cv-details">Undergraduate Studies Committee</div></div>
                                 <div class="cv-row"><div class="cv-date">Winter 2024</div><div class="cv-details">Advisory Committee for the Chair of the Philosophy Department</div></div>
