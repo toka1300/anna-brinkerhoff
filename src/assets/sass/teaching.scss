@@ -9,7 +9,7 @@
     }
     #faq-326 .cs-container {
         width: 100%;
-        max-width: 70rem;
+        max-width: calc(700 / 16 * 1rem);
         margin: auto;
         display: flex;
         flex-direction: column;

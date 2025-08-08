@@ -1040,6 +1040,7 @@
             padding-bottom: clamp(1.5rem, 5vw, 4rem);
             border-bottom: 1px solid #484848;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: space-between;
             gap: clamp(1.25rem, 4vw, 2.5rem);
@@ -1127,10 +1128,23 @@
         }
 
         .cs-copyright {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.5rem;
             font-size: calc(16 / 16 * 1rem);
             line-height: 1.5em;
             margin: 0;
-            display: block;
+        }
+
+        .cs-copyright a {
+            color: var(--primary);
+        }
+
+        .credit {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .cs-copyright-link,
@@ -1154,6 +1168,15 @@
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
     #footer-1390 {
+
+        .cs-top {
+            flex-direction: row;
+        }
+
+        .credit {
+            display: inline-block;
+            align-items: flex-start;
+        }
 
         .cs-bottom {
             flex-direction: row;

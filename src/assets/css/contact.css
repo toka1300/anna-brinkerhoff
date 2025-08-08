@@ -63,7 +63,7 @@
   }
   #contact-718 .cs-header {
     /* 13px - 16px */
-    font-size: clamp(0.8125rem, 1.5vw, 1rem);
+    font-size: clamp(0.8125rem, 1.5vw, 1.15rem);
     line-height: 1.2em;
     text-transform: uppercase;
     font-weight: 700;
