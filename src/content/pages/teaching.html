@@ -10,8 +10,7 @@ eleventyNavigation:
 {% extends "layouts/base.html" %}
 
 {% block head %}
-    <link rel="stylesheet" href="/assets/css/research.css">
-    <script defer src="/assets/js/nav.js"></script>
+    <link rel="stylesheet" href="/assets/css/teaching.css">
     <script defer src="/assets/js/faq.js"></script>
     {# <link rel="preload" as="image" href="{% getUrl '/assets/images/cabinets2.jpg' | resize({ width: 720, height: 774 }) | avif %}"/> #}
 {% endblock %}
@@ -59,10 +58,14 @@ eleventyNavigation:
                         </span>
                     </button>
                     <p class="cs-item-p">
-                        <img src="/assets/svgs/document.svg" alt="Document Icon" width="24" height="24" loading="eager" decoding="async" aria-hidden="true">
-                        <em>Winter 2025,</em> The philosophy of happiness and wellbeing, Concordia University
-                        <em>Forthcoming - Journal of Ethics and Social Philosophy</em><br>
-                        <a href="#" class="cs-link">PDF Preprint</a>
+                        <a href="/assets/syllabi/happiness_and_wellbeing.pdf" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/document.svg" alt="Document Icon" width="24" height="24" loading="eager" decoding="async" aria-hidden="true">
+                            <span><strong>Winter 2025, </strong>The Philosophy of Happiness & Wellbeing, Concordia University TODO: Move this to past and add Fall 2025?</span>
+                        </a>
+                        <a href="/assets/syllabi/biomedical_ethics.pdf" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/document.svg" alt="Document Icon" width="24" height="24" loading="eager" decoding="async" aria-hidden="true">
+                            <span><strong>Winter 2025, </strong>Biomedical Ethics, Concordia University TODO: Move this to past and add Fall 2025?</span>
+                        </a>
                     </p>
                 </li>
                 <li class="cs-faq-item">
@@ -72,7 +75,34 @@ eleventyNavigation:
                         </span>
                     </button>
                     <p class="cs-item-p">
-                        [Abstract to be added]
+                        <a href="/teaching" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/document.svg" alt="Document Icon" width="24" height="24" loading="eager" decoding="async" aria-hidden="true">
+                            <span><strong>Winter 2024, </strong>Ethics of Belief, Concordia University TODO: Add PDF</span>
+                        </a>
+                        <a href="/" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/document.svg" alt="Document Icon" width="24" height="24" loading="eager" decoding="async" aria-hidden="true">
+                            <span><strong>Winter 2023, </strong>Values and Biotechnology, Concordia University TODO: Add PDF</span>
+                        </a>
+                        <a href="/" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/document.svg" alt="Document Icon" width="24" height="24" loading="eager" decoding="async" aria-hidden="true">
+                            <span><strong>Fall 2022, </strong>Feminist Philosophy, Concordia University TODO: Add PDF</span>
+                        </a>
+                        <a href="/" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/document.svg" alt="Document Icon" width="24" height="24" loading="eager" decoding="async" aria-hidden="true">
+                            <span><strong>Fall 2022, </strong>Environmental Ethics, Concordia University TODO: Add PDF</span>
+                        </a>
+                        <span class="cs-link">
+                            <span><strong>Fall 2021 & Spring 2022, </strong>Happiness and the Good Life, George Mason University</span>
+                        </span>
+                        <span class="cs-link">
+                            <span><strong>Winter 2021 & Spring 2021, </strong>Introduction to Philosophy of Religion, Seattle Pacific University</span>
+                        </span>
+                        <span class="cs-link">
+                            <span><strong>Summers 2018, 2019, 2021, </strong>Contemporary Moral Issues, Summer@Brown</span>
+                        </span>
+                        <span class="cs-link">
+                            <span><strong>Fall 2018, </strong>Philosophy of Death, Brown University</span>
+                        </span>
                     </p>
                 </li>
                 <li class="cs-faq-item">
@@ -82,7 +112,14 @@ eleventyNavigation:
                         </span>
                     </button>
                     <p class="cs-item-p">
-                        [Abstract to be added]
+                        <a href="/assets/rubrics/philosophy_paper_rubric.pdf" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/document.svg" alt="Document Icon" width="24" height="24" loading="eager" decoding="async" aria-hidden="true">
+                            <span>Philosophy Paper Rubric</span>
+                        </a>
+                        <a href="/assets/rubrics/real_life_reflection.pdf" target="_blank" class="cs-link">
+                            <img src="/assets/svgs/document.svg" alt="Document Icon" width="24" height="24" loading="eager" decoding="async" aria-hidden="true">
+                            <span>Real-World Reflection Rubric</span>
+                        </a>
                     </p>
                 </li>
             </ul>
